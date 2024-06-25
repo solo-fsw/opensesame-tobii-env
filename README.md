@@ -1,7 +1,7 @@
 # Info
 More information about the purpose of these scripts can be found on our [Wiki](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Software/OpenSesame/Tobii%20and%20OpenSesame/).
 
-The scripts in this repo automate the process of creating a Conda environment with OpenSesame and with a Python version that allows for Tobii eye tracking. The `create_env_opensesamex-pyx.bat` files create environments from the yml files, which are definition files that are fully resolved and version-locked. The `run_osx_in_env.bat` activates the environment and launches OpenSesame. The file `find_conda.bat` is used by the other two batch files to find the currently installed Conda.  
+The scripts in this repo automate the process of creating a Conda environment with OpenSesame and with a Python version that allows for Tobii eye tracking. The `create_env_opensesamex-pyx.bat` files create environments from the yml files, which are definition files that are fully resolved and version-locked. The environment is created in C:\Users\%USERNAME%\.conda\envs. The `run_osx_in_env.bat` activates the environment and launches OpenSesame. The file `find_conda.bat` is used by the other two batch files to find the currently installed Conda.  
 
 When you want to build your own Conda environment with OpenSesame, see the OpenSesame download page for more information: https://osdoc.cogsci.nl/4.0/download/
 
@@ -28,3 +28,15 @@ When you want to build your own Conda environment with OpenSesame, see the OpenS
 1. Run `run_os3_in_env.bat` to activate the opensesame3-py38 environment and launch OpenSesame.
 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
+
+# Troubleshooting
+- `run_osx_in_env.bat` file does not work: activate the environment and run OpenSesame manually:
+  - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt".
+  - Type `conda activate opensesame4-py310` or `conda activate opensesame3-py38` to activate the environment.
+  - Type `opensesame` to run opensesame.
+- The environment was not installed properly: try removing and reinstalling the environment:
+  - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt".
+  - Type `conda remove -n opensesame4-py310 --all -y` or `conda remove -n opensesame3-py38 --all -y` to remove the environment. This can take a while.
+  - Check if the environment was removed from C:\Users\%USERNAME%\.conda\envs.
+  - Install the environment again using the `create_env_opensesamex-pyx.bat` script.
+
