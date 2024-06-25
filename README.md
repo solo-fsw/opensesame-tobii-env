@@ -1,7 +1,7 @@
 # Info
-Information about the purpose and usage of these scripts can be found on our [Wiki](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Software/OpenSesame/Tobii%20and%20OpenSesame/).
+More information about the purpose of these scripts can be found on our [Wiki](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Software/OpenSesame/Tobii%20and%20OpenSesame/).
 
-The scripts in this repo automate the process of creating a Conda environment. The environments are created from yaml files, which are definition files that are fully resolved and version-locked. 
+The scripts in this repo automate the process of creating a Conda environment with OpenSesame and with a Python version that allows for Tobii eye tracking. The `create_env_opensesamex-pyx.bat` files create environments from the yml files, which are definition files that are fully resolved and version-locked. The `run_osx_in_env.bat` activates the environment and launches OpenSesame. The file `find_conda.bat` is used by the other two batch files to find the currently installed Conda.  
 
 When you want to build your own Conda environment with OpenSesame, see the OpenSesame download page for more information: https://osdoc.cogsci.nl/4.0/download/
 
