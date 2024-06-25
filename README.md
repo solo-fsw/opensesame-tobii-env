@@ -1,6 +1,8 @@
 # Info
 Information about the purpose and usage of these scripts can be found on our [Wiki](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Software/OpenSesame/Tobii%20and%20OpenSesame/).
 
+The scripts in this repo automate the process of creating a Conda environment. The environments are created from a yaml file, a definition file that is fully resolved and version-locked. 
+
 # Installing the OpenSesame 4 with Python 3.10 environment
 1. Make sure Anaconda is installed (see https://www.anaconda.com/).
 1. Download the opensesame4 folder located inside this repo (click here to download the folder with downgit).
