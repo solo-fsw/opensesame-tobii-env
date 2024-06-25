@@ -5,7 +5,7 @@ rem Runs OpenSesame in a specific environment.
 
 
 rem Set the environment name:
-set ENVNAME=opensesame-py38
+set ENVNAME=opensesame3-py38
 
 rem Check for conda:
 call find_conda.bat
