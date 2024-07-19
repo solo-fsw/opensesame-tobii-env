@@ -7,7 +7,7 @@ When you want to build your own Conda environment with OpenSesame, see the OpenS
 
 # Installing the OpenSesame 4 with Python 3.10 environment
 1. Make sure Anaconda is installed (see https://www.anaconda.com/).
-1. Download the opensesame4 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame4) to download the folder with downgit).
+1. Download the opensesame4 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame4) to download the folder).
 1. Unzip the opensesame4 folder.
 1. Make sure `find_conda.bat` and `opensesame4-py310.yml` are located in the same folder as `create_env_opensesame4-py310.bat`.
 1. Run `create_env_opensesame4-py310.bat` (by double-clicking on it).
@@ -19,7 +19,7 @@ When you want to build your own Conda environment with OpenSesame, see the OpenS
 
 # Installing the OpenSesame 3 with Python 3.8 environment
 1. Make sure Anaconda is installed (see https://www.anaconda.com/).
-1. Download the opensesame3 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame3) to download the folder with downgit).
+1. Download the opensesame3 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame3) to download the folder).
 1. Unzip the opensesame3 folder.
 1. Make sure `find_conda.bat` and `opensesame3-py38.yml` are located in the same folder as `create_env_opensesame3-py38.bat`.
 1. Run `create_env_opensesame3-py38.bat` (by double-clicking on it).
