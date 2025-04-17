@@ -15,7 +15,7 @@ When you want to build your own Conda environment with OpenSesame, see the OpenS
 The instructions below provide information on installing and running OpenSesame 4 in a Python 3.10 environment.
 
 ## Installing the environment opensesame4-py310
-The instructions below only need to be done once to create the environment. Any consecutive times, see [Activating the environment and opening OpenSesame](#Activating-the-environment-and-opening-OpenSesame) below.
+The instructions below only need to be done once to create the environment. Any consecutive times, see [Activating the environment and opening OpenSesame 4](#Activating-the-environment-and-opening-OpenSesame-4) below.
 1. Download the opensesame4 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame4) to download the folder).
 1. Unzip the opensesame4 folder.
 1. Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
@@ -26,7 +26,7 @@ The instructions below only need to be done once to create the environment. Any 
 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
-## Activating the environment and opening OpenSesame
+## Activating the environment and opening OpenSesame 4
 The instructions below need to be done when the environment has already been installed. Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame.
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame4-py310` to activate the environment.
@@ -37,7 +37,7 @@ The instructions below need to be done when the environment has already been ins
 The instructions below provide information on installing and running OpenSesame 3 in a Python 3.8 environment.
 
 ## Installing the environment opensesame3-py38
-The instructions below only need to be done once to create the environment. Any consecutive times, see [Activating the environment and opening OpenSesame](#Activating-the-environment-and-opening-OpenSesame) below.
+The instructions below only need to be done once to create the environment. Any consecutive times, see [Activating the environment and opening OpenSesame 3](#Activating-the-environment-and-opening-OpenSesame-3) below.
 1. Download the opensesame3 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame3) to download the folder).
 1. Unzip the opensesame3 folder.
 1. Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
@@ -48,7 +48,7 @@ The instructions below only need to be done once to create the environment. Any 
 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
-## Activating the environment and opening OpenSesame
+## Activating the environment and opening OpenSesame 3
 The instructions below need to be done when the environment has already been installed. Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame.
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame3-py38` to activate the environment.
