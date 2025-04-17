@@ -93,10 +93,7 @@ The markers plugin is required when markers need to be sent using a UsbParMarker
     - For OpenSesame 3:
       - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages
       - Place the python_markers folder from the python-markers repo here.
-      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages\share\opensesame_plugins
-      - Place the markers_os3_init and markers_os3_send folders that are located in the share > opensesame_plugins folder of the opensesame3_plugin_markers repo here.
-      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages\share\opensesame_extensions
-      - Place the markers_os3_extension folder that is located in the share > opensesame_extensions folder in the opensesame3_plugin_markers repo here.
+      - Place the share folder from the opensesame3_plugin_markers repo here.
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame4-py310` or `conda activate opensesame3-py38` to activate the environment.  
   - Type `opensesame` to run opensesame and check that the markers plugin is installed. See [opensesame4_plugin_markers](https://github.com/solo-fsw/opensesame4_plugin_markers) or [opensesame3_plugin_markers](https://github.com/solo-fsw/opensesame3_plugin_markers) for more information on the markers plugin.
