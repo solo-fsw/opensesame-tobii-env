@@ -27,7 +27,9 @@ The instructions below only need to be done once to create the environment. Any 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
 ## Activating the environment and opening OpenSesame 4
-The instructions below need to be followed when opening OpenSesame in the enviornment after the environment was created. Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame:
+The instructions below need to be followed when opening OpenSesame in the enviornment after the environment was created. 
+
+> Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame:
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame4-py310` to activate the environment.
   - Type `opensesame` to run opensesame.
@@ -49,7 +51,9 @@ The instructions below only need to be done once to create the environment. Any 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
 ## Activating the environment and opening OpenSesame 3
-The instructions below need to be followed when opening OpenSesame in the enviornment after the environment was created. Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame:
+The instructions below need to be followed when opening OpenSesame in the enviornment after the environment was created. 
+
+> Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame:
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame3-py38` to activate the environment.
   - Type `opensesame` to run opensesame.
