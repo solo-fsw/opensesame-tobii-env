@@ -65,7 +65,7 @@ The instructions below need to be followed when opening OpenSesame in the envior
 # Installing the markers plugin
 The markers plugin is required when markers need to be sent using a UsbParMarker or Eva device. The markers plugin is not installed in the environment by default. Follow the instructions below to install the plugin in your environment. Note that you will need to install the environment, before taking the steps below.
 
-Option 1: Using Git
+**Option 1: Using Git**
   - Make sure your have Git installed, see https://git-scm.com/downloads. 
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame4-py310` or `conda activate opensesame3-py38` to activate the environment.
@@ -73,7 +73,7 @@ Option 1: Using Git
   - For OpenSesame 4, type `pip install git+https://github.com/solo-fsw/opensesame4_plugin_markers` or for OpenSesame 3, type `pip install git+https://github.com/solo-fsw/opensesame3_plugin_markers`.
   - Type `opensesame` to run opensesame and check that the markers plugin is installed [opensesame4_plugin_markers](https://github.com/solo-fsw/opensesame4_plugin_markers) or [opensesame3_plugin_markers](https://github.com/solo-fsw/opensesame3_plugin_markers) for more information on the markers plugin.
 
-Option 2: Without Git
+**Option 2: Without Git**
   - Download the repositories that are necessary for the plugin (in the repo, got to Code > Downlaod ZIP):
     - For OpenSesame 4, download the [opensesame4_plugin_markers](https://github.com/solo-fsw/opensesame4_plugin_markers) repo and the [python-markers](https://github.com/solo-fsw/python-markers) repo
     - For OpenSesame 3, download the [opensesame3_plugin_markers](https://github.com/solo-fsw/opensesame3_plugin_markers) repo and the [python-markers](https://github.com/solo-fsw/python-markers) repo
