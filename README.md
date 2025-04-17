@@ -67,7 +67,7 @@ The instructions below need to be followed when opening OpenSesame in the envior
   - Install the environment again using the instructions above.
 
 # Installing the markers plugin
-The markers plugin is required when markers need to be sent using a UsbParMarker or Eva device. The markers plugin is not installed in the environment by default. Follow the instructions below to install the plugin in your environment. Note that you will need to install the environment, before taking the steps below.
+The markers plugin is required when markers need to be sent using a [UsbParMarker](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Hardware/Markers%20and%20Events/UsbParMarker/) or [Eva](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Hardware/Markers%20and%20Events/EVA/) device (see also [here](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Hardware/Markers%20and%20Events/) for more information). The markers plugin is not installed in the environment by default. Follow the instructions below to install the plugin in your environment. Note that you will need to install the environment, before taking the steps below.
 
 **Option 1: Using Git**
   - Make sure your have Git installed, see https://git-scm.com/downloads. 
