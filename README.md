@@ -5,9 +5,9 @@ This repo contains the instructions and yml files that are necessary to create a
 
 Important:
 
-> The environment is created in C:\Users\\%USERNAME%\\.conda\envs.
-> Before following the instructions, make sure Anaconda is installed, see https://www.anaconda.com/.
-> If you need the markers plugin to be installed in the environment, please follow the instructions below: [Installing the markers plugin](#Installing-the-markers-plugin). 
+> - The environment is created in C:\Users\\%USERNAME%\\.conda\envs.
+> - Before following the instructions, make sure Anaconda is installed, see https://www.anaconda.com/.
+> - If you need the markers plugin to be installed in the environment, please follow the instructions below: [Installing the markers plugin](#Installing-the-markers-plugin). 
 
 When you want to build your own Conda environment with OpenSesame, see the OpenSesame download page for more information: https://osdoc.cogsci.nl/4.0/download/
 
