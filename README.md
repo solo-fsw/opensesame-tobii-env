@@ -16,13 +16,13 @@ The instructions below provide information on installing and running OpenSesame 
 
 ## Installing the environment opensesame4-py310
 The instructions below only need to be done once to create the environment. Any consecutive times, see [Activating the environment and opening OpenSesame 4](#Activating-the-environment-and-opening-OpenSesame-4) below.
-1. Download the opensesame4 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame4) to download the folder).
-1. Unzip the opensesame4 folder.
-1. Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
-1. Type `conda env create -f <PATH TO YML>\opensesame4-py310.yml` where `<path to yml file>` is the path where the yml file is located. For example, when the yml file is located in C:\ExperimentData, the command to run should be: `conda env create -f C:\ExperimentData\opensesame4-py310.yml`.
-1. Type `conda activate opensesame4-py310`
-1. Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
-1. Type `opensesame` to run opensesame.
+- Download the opensesame4 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame4) to download the folder).
+- Unzip the opensesame4 folder.
+- Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
+- Type `conda env create -f <PATH TO YML>\opensesame4-py310.yml` where `<path to yml file>` is the path where the yml file is located. For example, when the yml file is located in C:\ExperimentData, the command to run should be: `conda env create -f C:\ExperimentData\opensesame4-py310.yml`.
+- Type `conda activate opensesame4-py310`
+- Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
+- Type `opensesame` to run opensesame.
 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
@@ -38,13 +38,13 @@ The instructions below provide information on installing and running OpenSesame 
 
 ## Installing the environment opensesame3-py38
 The instructions below only need to be done once to create the environment. Any consecutive times, see [Activating the environment and opening OpenSesame 3](#Activating-the-environment-and-opening-OpenSesame-3) below.
-1. Download the opensesame3 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame3) to download the folder).
-1. Unzip the opensesame3 folder.
-1. Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
-1. Type `conda env create -f <PATH TO YML>\opensesame3-py38.yml` where `<path to yml file>` is the path where the yml file is located. For example, when the yml file is located in C:\ExperimentData, the command to run should be: `conda env create -f C:\ExperimentData\opensesame3-py38.yml`.
-1. Type `conda activate opensesame3-py38`
-1. Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
-1. Type `opensesame` to run opensesame.
+- Download the opensesame3 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame3) to download the folder).
+- Unzip the opensesame3 folder.
+- Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
+- Type `conda env create -f <PATH TO YML>\opensesame3-py38.yml` where `<path to yml file>` is the path where the yml file is located. For example, when the yml file is located in C:\ExperimentData, the command to run should be: `conda env create -f C:\ExperimentData\opensesame3-py38.yml`.
+- Type `conda activate opensesame3-py38`
+- Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
+- Type `opensesame` to run opensesame.
 
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
