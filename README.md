@@ -64,9 +64,35 @@ The instructions below need to be done when the environment has already been ins
 
 # Installing the markers plugin
 The markers plugin is required when markers need to be sent using a UsbParMarker or Eva device. The markers plugin is not installed in the environment by default. Follow the instructions below to install the plugin in your environment. Note that you will need to install the environment, before taking the steps below.
+
+Option 1: Using Git
   - Make sure your have Git installed, see https://git-scm.com/downloads. 
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame4-py310` or `conda activate opensesame3-py38` to activate the environment.
   - Temporarily set the path to the Git application: `set PATH=<PATH TO GIT>;%PATH%`, where PATH TO GIT it the path to the Git application. Usually, when Git is installed system wide, Git is located in Program Files. In this case, type `set PATH=C:\Program Files\Git\cmd;%PATH%`.
   - For OpenSesame 4, type `pip install git+https://github.com/solo-fsw/opensesame4_plugin_markers` or for OpenSesame 3, type `pip install git+https://github.com/solo-fsw/opensesame3_plugin_markers`.
-  - Type `opensesame` to run opensesame and check that the marker plugin is installed.
+  - Type `opensesame` to run opensesame and check that the markers plugin is installed [opensesame4_plugin_markers](https://github.com/solo-fsw/opensesame4_plugin_markers) or [opensesame3_plugin_markers](https://github.com/solo-fsw/opensesame3_plugin_markers) for more information on the markers plugin.
+
+Option 2: Without Git
+  - Download the repositories that are necessary for the plugin (in the repo, got to Code > Downlaod ZIP):
+    - For OpenSesame 4, download the [opensesame4_plugin_markers](https://github.com/solo-fsw/opensesame4_plugin_markers) repo and the [python-markers](https://github.com/solo-fsw/python-markers) repo
+    - For OpenSesame 3, download the [opensesame3_plugin_markers](https://github.com/solo-fsw/opensesame3_plugin_markers) repo and the [python-markers](https://github.com/solo-fsw/python-markers) repo
+  - Unzip the folders
+  - Place the necessary folders in the environment:
+    - For OpenSesame 4:
+      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame4-py310\Lib\site-packages
+      - Place the python_markers folder from the python-markers repo here.
+      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame4-py310\Lib\site-packages\opensesame_plugins
+      - Place the markers_os4 folder that is located in the opensesame_plugins folder of the opensesame4_plugin_markers repo here.
+      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame4-py310\Lib\site-packages\opensesame_extensions
+      - Place the markers_os4 folder that is located in the opensesame_extensions folder of the opensesame4_plugin_markers repo here.
+    - For OpenSesame 3:
+      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages
+      - Place the python_markers folder from the python-markers repo here.
+      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages\share\opensesame_plugins
+      - Place the markers_os3_init and markers_os3_send folders that are located in the share > opensesame_plugins folder of the opensesame3_plugin_markers repo here.
+      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages\share\opensesame_extensions
+      - Place the markers_os3_extension folder that is located in the share > opensesame_extensions folder in the opensesame3_plugin_markers repo here.
+  - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
+  - Type `conda activate opensesame4-py310` or `conda activate opensesame3-py38` to activate the environment.  
+  - Type `opensesame` to run opensesame and check that the markers plugin is installed [opensesame4_plugin_markers](https://github.com/solo-fsw/opensesame4_plugin_markers) or [opensesame3_plugin_markers](https://github.com/solo-fsw/opensesame3_plugin_markers) for more information on the markers plugin.
