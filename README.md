@@ -12,7 +12,7 @@ If you need the markers plugin to be installed in the environment, please follow
 When you want to build your own Conda environment with OpenSesame, see the OpenSesame download page for more information: https://osdoc.cogsci.nl/4.0/download/
 
 # OpenSesame 4 with Python 3.10 
-The instructions below provide information on installing and running OpenSesame 4 in a Python 3.10.
+The instructions below provide information on installing and running OpenSesame 4 in a Python 3.10 environment.
 
 ## Installing the environment opensesame4-py310
 The instructions below only need to be done once to create the environment. Any consecutive times, see Activating the environment and opening OpenSesame below.
