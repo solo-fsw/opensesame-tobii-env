@@ -3,11 +3,11 @@ More information about the purpose of these scripts can be found on our [Wiki](h
 
 This repo contains the instructions and yml files that are necessary to create a Conda environment with OpenSesame and with a Python version that allows for Tobii eye tracking. The instructions for OpenSesame 4 and OpenSesame 3 can be found below. The yml files required for building the environments are located in the opensesame3 and openasesame4 subfolders.
 
-The environment is created in C:\Users\\%USERNAME%\\.conda\envs.
+Important:
 
-Before following the instructions, make sure Anaconda is installed, see https://www.anaconda.com/.
-
-If you need the markers plugin to be installed in the environment, please follow the instructions below: [Installing the markers plugin](#Installing-the-markers-plugin). 
+> The environment is created in C:\Users\\%USERNAME%\\.conda\envs.
+> Before following the instructions, make sure Anaconda is installed, see https://www.anaconda.com/.
+> If you need the markers plugin to be installed in the environment, please follow the instructions below: [Installing the markers plugin](#Installing-the-markers-plugin). 
 
 When you want to build your own Conda environment with OpenSesame, see the OpenSesame download page for more information: https://osdoc.cogsci.nl/4.0/download/
 
