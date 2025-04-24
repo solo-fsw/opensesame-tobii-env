@@ -1,10 +1,9 @@
 # Info
-More information about the purpose of these scripts can be found on our [Wiki](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Software/OpenSesame/Tobii%20and%20OpenSesame/).
+More information about the purpose of this repo can be found on our [Wiki](https://researchwiki.solo.universiteitleiden.nl/xwiki/wiki/researchwiki.solo.universiteitleiden.nl/view/Software/OpenSesame/Tobii%20and%20OpenSesame/).
 
 This repo contains the instructions and yml files that are necessary to create a Conda environment with OpenSesame and with a Python version that allows for Tobii eye tracking. The instructions for OpenSesame 4 and OpenSesame 3 can be found below. The yml files required for building the environments are located in the opensesame3 and openasesame4 subfolders.
 
-Important:
-
+> [!IMPORTANT]
 > - The environment is created in C:\Users\\%USERNAME%\\.conda\envs.
 > - Before following the instructions, make sure Anaconda is installed, see https://www.anaconda.com/.
 > - If you need the markers plugin to be installed in the environment, please follow the instructions below: [Installing the markers plugin](#Installing-the-markers-plugin). 
@@ -19,17 +18,19 @@ The instructions below only need to be done once to create the environment. Any 
 - Download the opensesame4 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame4) to download the folder).
 - Unzip the folder.
 - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
-- Type `conda env create -f <PATH TO YML>\opensesame4-py310.yml` where `<path to yml file>` is the path where the yml file is located. For example, when the yml file is located in C:\ExperimentData, the command to run should be: `conda env create -f C:\ExperimentData\opensesame4-py310.yml`.
+- Type `conda env create -f "<PATH TO YML>\opensesame4-py310.yml"` where `<PATH TO YML>` is the path where the yml file is located. For example, when the yml file is located in `C:\ExperimentData`, the command to run should be: `conda env create -f "C:\ExperimentData\opensesame4-py310.yml"`.
 - Type `conda activate opensesame4-py310`
 - Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
 - Type `opensesame` to run opensesame.
 
+> [!NOTE]
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
 ## Activating the environment and opening OpenSesame 4
 The instructions below need to be followed when opening OpenSesame in the enviornment after the environment was created. 
 
-> Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame.
+> [!WARNING]
+> When trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame.
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame4-py310` to activate the environment.
   - Type `opensesame` to run opensesame.
@@ -43,17 +44,19 @@ The instructions below only need to be done once to create the environment. Any 
 - Download the opensesame3 folder located inside this repo (click [here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsolo-fsw%2Fopensesame-tobii-env%2Ftree%2Fmain%2Fopensesame3) to download the folder).
 - Unzip the folder.
 - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
-- Type `conda env create -f <PATH TO YML>\opensesame3-py38.yml` where `<path to yml file>` is the path where the yml file is located. For example, when the yml file is located in C:\ExperimentData, the command to run should be: `conda env create -f C:\ExperimentData\opensesame3-py38.yml`.
+- Type `conda env create -f "<PATH TO YML>\opensesame3-py38.yml"` where `<PATH TO YML>` is the path where the yml file is located. For example, when the yml file is located in `C:\ExperimentData`, the command to run should be: `conda env create -f "C:\ExperimentData\opensesame3-py38.yml"`.
 - Type `conda activate opensesame3-py38`
 - Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
 - Type `opensesame` to run opensesame.
 
+> [!NOTE]
 > Creating the environment may take quite long (possibly 15+ minutes); please be patient!
 
 ## Activating the environment and opening OpenSesame 3
 The instructions below need to be followed when opening OpenSesame in the enviornment after the environment was created. 
 
-> Note that when trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame.
+> [!WARNING]
+> When trying to open your OpenSesame experiment by double-clicking on the .osexp file, it will open in the system installation of OpenSesame, not in the environment. To open your task in the environment, you first need to activate the environment and then run OpenSesame.
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda activate opensesame3-py38` to activate the environment.
   - Type `opensesame` to run opensesame.
@@ -63,7 +66,7 @@ The instructions below need to be followed when opening OpenSesame in the envior
 - The environment was not installed properly: try removing and reinstalling the environment:
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
   - Type `conda remove -n opensesame4-py310 --all -y` or `conda remove -n opensesame3-py38 --all -y` to remove the environment. This can take a while.
-  - Check if the environment was removed from C:\Users\\%USERNAME%\\.conda\envs.
+  - Check if the environment was removed from `C:\Users\%USERNAME%\.conda\envs`.
   - Install the environment again using the instructions above.
 
 # Installing the markers plugin
@@ -84,14 +87,14 @@ The markers plugin is required when markers need to be sent using a [UsbParMarke
   - Unzip the folders
   - Place the necessary folders in the environment:
     - For OpenSesame 4:
-      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame4-py310\Lib\site-packages
+      - Navigate to `C:\Users\%USERNAME%\.conda\envs\opensesame4-py310\Lib\site-packages`
       - Place the python_markers folder from the python-markers repo here.
-      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame4-py310\Lib\site-packages\opensesame_plugins
+      - Navigate to `C:\Users\%USERNAME%\.conda\envs\opensesame4-py310\Lib\site-packages\opensesame_plugins`
       - Place the markers_os4 folder that is located in the opensesame_plugins folder of the opensesame4_plugin_markers repo here.
-      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame4-py310\Lib\site-packages\opensesame_extensions
+      - Navigate to `C:\Users\%USERNAME%\.conda\envs\opensesame4-py310\Lib\site-packages\opensesame_extensions`
       - Place the markers_os4 folder that is located in the opensesame_extensions folder of the opensesame4_plugin_markers repo here.
     - For OpenSesame 3:
-      - Navigate to C:\Users\\%USERNAME%\\.conda\envs\opensesame3-py38\Lib\site-packages
+      - Navigate to `C:\Users\%USERNAME%\.conda\envs\opensesame3-py38\Lib\site-packages`
       - Place the python_markers folder from the python-markers repo here.
       - Place the share folder from the opensesame3_plugin_markers repo here.
   - Open the Anaconda prompt (click on Windows Start menu and type "Anaconda prompt").
