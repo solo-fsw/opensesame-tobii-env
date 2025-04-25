@@ -13,7 +13,6 @@ dependencies:
   - freetype=2.12.1=hdaf720e_2
   - future=1.0.0=pyhd8ed1ab_0
   - geos=3.12.1=h1537add_0
-  - git=2.45.1=h57928b3_0
   - glib=2.80.2=h0df6a38_0
   - glib-tools=2.80.2=h2f9d560_0
   - gst-plugins-base=1.24.4=hba88be7_0

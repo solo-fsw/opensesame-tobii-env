@@ -30,7 +30,6 @@ dependencies:
   - geos=3.12.1=h1537add_0
   - gettext=0.22.5=h5728263_2
   - gettext-tools=0.22.5=h7d00a51_2
-  - git=2.45.1=h57928b3_0
   - glib=2.80.2=h0df6a38_0
   - glib-tools=2.80.2=h2f9d560_0
   - gst-plugins-base=1.22.9=h001b923_1
