@@ -21,7 +21,7 @@ The instructions below only need to be done once to create the environment. Any 
 - Type `conda env create -f "<PATH TO YML>\opensesame4-py310.yml"` where `<PATH TO YML>` is the path where the yml file is located. For example, when the yml file is located in `C:\ExperimentData`, the command to run should be: `conda env create -f "C:\ExperimentData\opensesame4-py310.yml"`.
 - Type `conda activate opensesame4-py310`
 - Type `pip install http://files.cogsci.nl/expyriment-0.10.0+opensesame2-py3-none-any.whl`
-- Type 'pip install --no-deps psychopy==2024.1.4'
+- Type `pip install --no-deps psychopy==2024.1.4`
 - Type `opensesame` to run opensesame.
 
 > [!NOTE]
